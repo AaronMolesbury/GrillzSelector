@@ -11,7 +11,7 @@ The interface design is built using SVGs so the images are fully size-scalable a
 ### Usage
 To add this interface to your project simply 
 - add the `Denture.js` to your project's `src/*` directory
-- import the script into html (e.g. `<script src="src/Denture.js"></script>`)
+- import the styles & script into html (e.g. `<script src="src/Denture.js"></script>`)
 - reference the custom element in HTML using the `<denture-element>` (this can be renamed to anything in the final line of `Denture.js`
 
 The element comes with a simple dropdown selector which allows the user to select the type of tooth. In the current version only Silver and Gold Grillz are availale to preview. 
