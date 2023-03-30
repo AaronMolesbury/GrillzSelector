@@ -99,13 +99,9 @@ class Denture extends HTMLElement {
 
     getDentureSVG() {
         return `<svg
-                    version="1.1"
-                    id="svg306"
                     width="403.72357"
                     height="290.80515"
                     viewBox="0 0 403.72357 290.80515"
-                    sodipodi:docname="Screenshot_1.png"
-                    inkscape:export-filename="..\Users\aaron\Desktop\Denture.svg"
                     inkscape:export-xdpi="96"
                     inkscape:export-ydpi="96"
                     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
