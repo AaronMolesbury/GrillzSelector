@@ -1,0 +1,78 @@
+.DentureWrapper {
+    margin-top: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MenuWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    align-items: center;
+}
+
+.Dropdown {
+    outline: none;
+    cursor: pointer;
+    width: 250px;
+    height: 50px;
+    background: none;
+    border: solid 3px white;
+    border-radius: 12px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Helvetica';
+}
+
+.Dropdown:hover {
+    background-color: white;
+    color: black;
+}
+
+.Dropdown-Option {
+    color: black;
+}
+
+.ClearButton {
+    width: 100px;
+    margin-top: 50px;
+    cursor: pointer;
+    background-color: white;
+    border: solid 3px white;
+    border-radius: 12px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Helvetica';
+}
+
+.ClearButton:hover {
+    filter: brightness(90%)
+}
+
+.Tooth {
+    cursor: pointer;
+    fill: #ff0000;
+    fill-opacity: 0.3;
+    opacity: 0;
+}
+
+.Tooth:hover {
+    opacity: 1;
+}
+
+.Tooth[data-color=Gold]{
+    fill: #FFD700;
+    fill-opacity: 0.7;
+    opacity: 1;
+}
+
+.Tooth[data-color=Silver] {
+    fill: #ffffff;
+    fill-opacity: 0.7;
+    opacity: 1;
+}
+
+
