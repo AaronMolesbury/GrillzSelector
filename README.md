@@ -6,6 +6,8 @@ This is a custom HTML Element designed for the purpose of being an interactive v
 
 The idea is to give customers a simple interface in which they can get a simple visual representation of the jewellery in terms of looks, positioning etc.
 
+The interface design is built using SVGs so the images are fully size-scalable and the functionality is coded in Javascript (an exported class extending `HTML Element`
+
 ### Usage
 To add this interface to your project simply 
 - add the `Denture.js` to your project's `src/*` directory
